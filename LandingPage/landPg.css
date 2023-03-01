@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background: url("https://rare-gallery.com/uploads/posts/4514484-nature-road-mountains-clouds-iceland.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:200px;
+    color: yellow;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+#abovefocus{
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#focus{
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 60px;
+}
+
+hr{
+    width: 600px;
+    border: 2px solid grey;
+}
+
+#quote{
+    font-style: italic;
+}

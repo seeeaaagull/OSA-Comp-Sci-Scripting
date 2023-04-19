@@ -10,23 +10,25 @@
     <link href = "landPg.css" rel = "stylesheet" type="text/css" />
 </head>
 <body>
-    <h1>Good Morning Evan!</h1>
+    <h1>Good Morning <span id="scriptName">[[name here]]</span>!</h1>
 
-    <h2>What is your main focus for today?</h2>
-    <p id="abovefocus">Learn more about computing science!</p>
+    <h2>What is your main focus for <span id="actionTime">[[time here]]</span>?</h2>
+    <p id="abovefocus">[[focus here]]</p>
     <p id="focus">Hobby: I sometimes walk with my legs</p>
 
     <hr><!--horizontal line-->
     <p id="quote">
-        "You, me, or nobody is gonna hit as hard as life. But it ain’t how hard you hit; it’s about how hard you can get hit, and keep moving forward."
+        <span id="textQuote"> [[quote here]] </span>
     </p>
     <p>
-        - Rocky Balboa
+        - <span id="quoteSpeaker">[[speaker here]]</span>
     </p>
     <hr>
 
     <img src="https://cdn-icons-png.flaticon.com/512/1624/1624456.png"
      alt="space shuttle" width="80px">
 
+    <!-- Load javascript here -->
+    <script src="LP-script.js"></script>
 </body>
 </html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="calc_style.css" rel="stylesheet" type="text/css"/>
+</head>
+<!-- Kinteic energy, potential, sphere volume, quadratic equation -->
+<body>
+    <h1>Calculate Some Stuff</h1>
+    <form>
+      <select id="mySelect">
+        <option value="ek">Kinetic Energy</option>
+        <option value="ep">Potential Energy</option>
+        <option value="sv">Sphere Volume</option>
+      </select>
+    </form>
+
+
+    <div id="inputBoxes">
+      <div id = "ek">
+        <p>Mass: <input id = "ek1" type = "number"></p>
+        <p>Velocity: <input id = "ek2" type = "number"></p>
+      </div>
+      <div id = "ep">
+        <p>Mass: <input id = "ep1" type = "number"></p>
+        <p>Gravtiy: <input value = 9.81 id = "ep2" type = "number"></p>
+        <p>Height: <input id = "ep3" type = "number"></p>
+      </div>
+      <div id = "sv">
+        <p>Radius: <input id = "sv1" type = "number"></p>
+      </div>
+    </div>
+    <p><button id = "solve">SOLVE!</button></p>
+    <hr>
+    <p id = "answer">[Answer here]</p>
+    
+      
+
+    <script src = "calc_script.js"></script>
+</body>
+</html>

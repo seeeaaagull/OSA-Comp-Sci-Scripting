@@ -1,0 +1,41 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    background: url("images/kungfupandabackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 25px 0px;/*first num is top, second num is sides */
+    width: 600px;
+    margin: 25px auto;/*moves stuff to the middle -- first num is vertical (from top), second is horizontal (auto in this case)*/
+    border-radius: 25px;/*rounded corners*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: "Papyrus", Arial;
+}
+
+h2{
+    font-family: "Papyrus", Arial;
+}
+
+input{
+    height: 20px;
+    text-align: center;
+}
+
+button{
+    height: 27px;
+    background: darkgreen;
+    color: white;
+}
+
+#quote{
+    font: Arial;
+    font-style: italic;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+    <link href="magic8_style.css" rel = "stylesheet" type="text/css" />
+</head>
+<body>
+    <p>Ask your question: <input id = "questionBox" onkeyup= "myVar = setTimeout(showAns, 3000)"></p>
+    <!--  onkeypress="clearTimeout(myVar)" onkeyup= "myVar = setTimeout(showAns, 3000)" -->
+    <img id = "stateFeedback" src = "" width = "1000px">
+
+    <p id = "answer"></p>
+
+    <script src = "magic8_script.js"></script>
+    
+    
+</body>
+</html>

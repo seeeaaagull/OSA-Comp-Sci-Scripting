@@ -1,0 +1,23 @@
+html{
+    background: rgb(20, 20, 32);
+}
+
+body{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+p{
+    font-size: 30px;
+}
+
+#answer{
+    background: rgb(255, 255, 255);
+    color: black;
+    font-size: 100px;
+}
+
+input{
+    font-size: 30px;
+}

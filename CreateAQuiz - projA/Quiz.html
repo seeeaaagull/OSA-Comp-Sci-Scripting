@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Car Quiz</title>
+    <link href="styles-Quiz.css" rel = "stylesheet" type="text/css" />
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://media.tenor.com/OxY2GZyUfTAAAAAC/supercar.gif" alt="Snow" style="width:100%;">
+        <div class="bottom-left">QUIZ!!!</div>
+      </div>
+
+
+    <p class="specialText">This is a short quiz about cars... mostly.</p>
+    <hr>
+    
+    <h2>Question 1: <img id = "q1feedback" src = "https://i.stack.imgur.com/Vkq2a.png" height = "22px"></h2>
+    <p>Let's start if off pretty easy! How many wheels does the typical car have?</p>
+    <p id = "inputLine" class="specialText">Answer: <input id="q1" type="number"></p>
+    <hr>
+
+    <h2>Question 2: <img id = "q2feedback" src = "https://i.stack.imgur.com/Vkq2a.png" height = "22px"></h2>
+    <p>Alright, up next: How many doors does the average car have?</p>
+    <p id = "inputLine" class="specialText">Answer: <input id="q2" type="number"></p>
+    <hr>
+
+    <h2>Question 3: <img id = "q3feedback" src = "https://i.stack.imgur.com/Vkq2a.png" height = "22px"></h2>
+    <img src="https://hips.hearstapps.com/hmg-prod/images/23my-crosstrek-se-2-1655498340.jpg?crop=0.487xw:0.368xh;0.324xw,0.312xh&resize=1200:*" alt="Subaru Crosstrek" width="400px">
+    <p>You've been doing great so far! I think it's time to ramp up the difficulty now...</p>
+    <p>How mant cylinders does the engine of this car have?</p>
+    <p id = "inputLine" class="specialText">Answer: <input id="q3" type="number"></p>
+    <p>Completely lost? Here is <a href="https://www.caranddriver.com/subaru/crosstrek-2021" target = "_blank">more info</a></p>
+    <hr>
+
+    <h2>Question 4: <img id = "q4feedback" src = "https://i.stack.imgur.com/Vkq2a.png" height = "22px"></h2>
+    <img src="https://i0.wp.com/www.car-revs-daily.com/wp-content/uploads/2016/02/2017-Pagani-Huayra-BC-Exterior-Photos-42.jpg?fit=2246%2C1238&ssl=1" alt="Pagani Huayra BC" width="400px">
+    <p>So how was that? Did you get it? Anyways next question:</p>
+    <p>Which country was this car built in?</p>
+    <p id = "inputLine" class="specialText">Answer: <input id="q4" type="text"></p>
+    <p>Completely lost AGAIN???? Here's a little more help I guess...  <a href="https://www.topgear.com/car-news/top-gear-advice/beginners-guide-pagani" target = "_blank">more info</a></p>
+    <br>
+    <br>
+    <hr id = "finishButton">
+
+
+    <p><button id = "subAns">Submit Answers</button></p>
+    <p><button id = "resetbtn">Reset Quiz</button></p>
+    <hr id = "finishButton">
+
+    <h1>QUIZ RESULTS:</h1>
+    <p>Your score:</p>
+    <p id = "score">__/4</p>
+
+    <!-- load javascript -->
+    <script src = "script-quiz.js"></script>
+    <img id = "feedbackGif" src = "" width = "600px">
+
+    
+
+</body>
+</html>

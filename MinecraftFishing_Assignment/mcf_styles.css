@@ -1,0 +1,59 @@
+html{
+    background: url("img/mcOceanBackground.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+body{
+    background: rgba(255,255,255,0.8);
+    color: rgb(0, 0, 0);
+    width: 800px;
+    padding: 50px 100px;
+    margin:  25px auto;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.charImg{
+    border: 1px solid black;
+}
+
+.charImgSelected{
+    border: 5px solid orange;
+}
+
+
+#imgP{
+    word-spacing: 20px;
+}
+
+button{
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+.resultText{
+    line-height: 25px;
+    font-size: 20px;
+}
+
+input{
+    width: 50px;
+    height: 26px;
+    font-size: 16px;
+}
+
+select{
+    height: 32px;
+    font-size: 16px;
+}
+
+#stats{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+
+#statsNum{
+    margin-top: 0%;
+}

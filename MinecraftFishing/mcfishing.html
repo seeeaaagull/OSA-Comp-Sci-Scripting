@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Fishing Simulator</title>
+    <link href="mcf_styles.css" rel = "stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>Minecraft Fishing</h1>
+    <hr>
+    
+    <h2>Select a Character:</h2>
+    <p id = "imgP">
+        <img id = "steve" src = "img/steve.jpg" height = "300px" class = "charImgSelected" class = "charImg">
+        <img id = "alex" src = "img/alex.jpg" height = 300px class = "charImg">
+        <img id = "villager" src = "img/villager.jpg" height = 300px width = 158px class = "charImg">
+    </p>
+    <hr>
+
+    <h2>Simulate Fishing</h2>
+    <p>
+        <button id = "fishbtn">Fish</button>
+        <button id = "plus5">+5</button>
+        <button id = "cod200">Until 200 Cod</button>
+        <button id = "plus50">+50</button>
+        <button id = "salmon500">Until 500 Salmon</button>
+    </p>
+    <img id = "fishResult" src = "img/Fishing-Rod.png" height = "250px">
+
+    <p class = "resultText"><img src = "img/Raw-Cod.png" height = "15px"> Raw Cod: <span id = "codNum">0</span> | <img src = "img/Raw-Salmon.png" height = "15px"> Raw Salmon: <span id = "salmonNum">0</span></p>
+    <p class = "resultText"><img src = "img/Tropical-Fish.png" height = "15px"> Tropical Fish: <span id = "tropNum">0</span> | <img src = "img/Pufferfish.png" height = "15px"> Pufferfish: <span id = "puffNum">0</span></p>
+    <p>Total fish caught: <span id = totalFishCaught>0</span></p>
+
+    <!-- Load Javascript -->
+    <script src="mcf_script.js"></script>
+</body>
+</html>
